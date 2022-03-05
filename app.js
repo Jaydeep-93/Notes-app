@@ -1,8 +1,3 @@
-const add = require('./utils')
+const validator = require('validator')
 
-console.log(add);
-
-a = 10; 
-b = 20; 
-c = add(a, b); 
-console.log(`addition of ${a} + ${b} = ${c}`);
+console.log(validator.isEmail('jaydeepkachare123@example'));
