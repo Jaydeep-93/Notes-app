@@ -1,3 +1,3 @@
 const validator = require('validator')
 
-console.log(validator.isEmail('jaydeepkachare123@example'));
+console.log(validator.isEmail('jaydeepkachare123@example.com'));
